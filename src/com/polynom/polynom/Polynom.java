@@ -486,6 +486,11 @@ public class Polynom {
     }
 
     public double[] solve(double eps) {
+        double min = 1E-15;
+        if (eps < min) {
+            eps = min;
+            System.out.println("Setting EPS to maximal possible accuracy 1E-15");
+        }
         Solver solver = new Solver(eps);
         double[] x = solver.solve(this);
 
