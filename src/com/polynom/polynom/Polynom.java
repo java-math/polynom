@@ -480,9 +480,8 @@ public class Polynom {
 
     public double[] solve() {
         Solver solver = new Solver();
-        double[] x = solver.solve(this);
+        return solver.solve(this);
 
-        return x;
     }
 
     public double[] solve(double eps) {
@@ -492,9 +491,8 @@ public class Polynom {
             System.out.println("Setting EPS to maximal possible accuracy 1E-15");
         }
         Solver solver = new Solver(eps);
-        double[] x = solver.solve(this);
+        return solver.solve(this);
 
-        return x;
     }
 
     public Polynom gcd(Polynom polynom) {
