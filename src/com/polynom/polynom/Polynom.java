@@ -439,6 +439,9 @@ public class Polynom {
     }
 
     public Polynom[] mod(Polynom polynom) {
+        if (polynom.equals(0.0)) {
+            throw new ArithmeticException("Division by zero.");
+        }
 
         Polynom dividend = new Polynom(this.getCoeffs());
         Polynom divider = new Polynom(polynom.getCoeffs());
