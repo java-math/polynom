@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f20630-1f3a-4636-80b6-2f03240e19dc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/polynom/polynom/Polynom.java" afterPath="$PROJECT_DIR$/src/com/polynom/polynom/Polynom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/polynom/shturm/Shturm.java" afterPath="$PROJECT_DIR$/src/com/polynom/shturm/Shturm.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Polynom.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Polynom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/polynom/polynom/Polynom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="494" column="0" lean-forward="true" selection-start-line="494" selection-start-column="0" selection-end-line="494" selection-end-column="0" />
+            <state relative-caret-position="1224">
+              <caret line="495" column="5" lean-forward="false" selection-start-line="495" selection-start-column="5" selection-end-line="495" selection-end-column="5" />
               <folding>
                 <element signature="docComment;class#Polynom#0" expanded="false" />
                 <element signature="method#Polynom#0;class#Polynom#0" expanded="false" />
@@ -31,7 +30,6 @@
                 <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
                 <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
                 <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-                <element signature="e#3017#3025#0" expanded="true" />
                 <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
                 <element signature="method#equals#0;class#Polynom#0" expanded="false" />
                 <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -47,8 +45,9 @@
                 <element signature="method#sign#0;class#Polynom#0" expanded="false" />
                 <element signature="method#sign#1;class#Polynom#0" expanded="false" />
                 <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+                <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+                <element signature="method#solve#1;class#Polynom#0" expanded="false" />
                 <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-                <element signature="e#13314#13323#0" expanded="true" />
                 <element signature="method#toString#0;class#Polynom#0" expanded="false" />
               </folding>
             </state>
@@ -58,33 +57,27 @@
       <file leaf-file-name="Solver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/polynom/solver/Solver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="288">
+              <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
               <folding>
-                <element signature="e#1323#1324#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1433#1434#0" expanded="true" />
+                <element signature="method#solve#0;class#Solver#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shturm.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Shturm.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/polynom/shturm/Shturm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+            <state relative-caret-position="48">
+              <caret line="101" column="45" lean-forward="false" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
               <folding>
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1420#1421#0" expanded="true" />
-                <element signature="method#buildShturmRow#0;class#Shturm#0" expanded="false" />
-                <element signature="method#rootsCount#0;class#Shturm#0" expanded="false" />
-                <element signature="method#rootsCount#1;class#Shturm#0" expanded="false" />
+                <element signature="method#Shturm#0;class#Shturm#0" expanded="false" />
+                <element signature="e#1604#1613#0" expanded="true" />
                 <element signature="method#findInterval#0;class#Shturm#0" expanded="false" />
                 <element signature="method#localizeRoots#0;class#Shturm#0" expanded="false" />
-                <element signature="method#bisection#0;class#Shturm#0" expanded="false" />
-                <element signature="method#solve#0;class#Shturm#0" expanded="false" />
+                <element signature="e#4309#4317#0" expanded="true" />
+                <element signature="e#5164#5172#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +86,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/polynom/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -129,9 +122,9 @@
         <option value="$PROJECT_DIR$/src/com/polynom/polynom/SyntaxErrorException.java" />
         <option value="$PROJECT_DIR$/src/com/polynom/tester/Tester.java" />
         <option value="$PROJECT_DIR$/src/com/polynom/solver/Solver.java" />
-        <option value="$PROJECT_DIR$/src/com/polynom/shturm/Shturm.java" />
-        <option value="$PROJECT_DIR$/src/com/polynom/main/Main.java" />
         <option value="$PROJECT_DIR$/src/com/polynom/polynom/Polynom.java" />
+        <option value="$PROJECT_DIR$/src/com/polynom/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/polynom/shturm/Shturm.java" />
       </list>
     </option>
   </component>
@@ -155,9 +148,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -529,39 +522,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1366" height="738" extended-state="7" />
+    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30744338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30744338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28021148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28776434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56796116" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37864077" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22330096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -587,7 +580,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="327" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/polynom/shturm/Shturm.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="360" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -596,6 +597,41 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/polynom/solver/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="method#solve#0;class#Solver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/polynom/shturm/Shturm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3564">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <element signature="method#Shturm#0;class#Shturm#0" expanded="false" />
+            <element signature="e#1604#1613#0" expanded="true" />
+            <element signature="method#findInterval#0;class#Shturm#0" expanded="false" />
+            <element signature="method#localizeRoots#0;class#Shturm#0" expanded="false" />
+            <element signature="e#4309#4317#0" expanded="true" />
+            <element signature="e#5164#5172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/polynom/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3006">
+          <caret line="167" column="38" lean-forward="true" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/polynom/polynom/Polynom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -607,7 +643,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -623,8 +658,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -651,7 +687,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -667,8 +702,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -695,7 +731,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -711,8 +746,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -739,7 +775,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -755,8 +790,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -788,7 +824,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -804,8 +839,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -837,7 +873,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -853,8 +888,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -886,7 +922,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -902,8 +937,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -935,7 +971,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -951,8 +986,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -977,7 +1013,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -993,8 +1028,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -1026,7 +1062,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -1042,8 +1077,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -1068,7 +1104,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -1084,8 +1119,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -1110,7 +1146,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -1126,8 +1161,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -1152,7 +1188,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -1168,8 +1203,9 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
           </folding>
         </state>
@@ -1186,51 +1222,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/polynom/newton/Newton.java" />
     <entry file="file://$PROJECT_DIR$/src/com/polynom/polynom/SyntaxErrorException.java" />
     <entry file="file://$PROJECT_DIR$/src/com/polynom/tester/Tester.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/polynom/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/polynom/solver/Solver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="e#1323#1324#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/polynom/shturm/Shturm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding>
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="method#buildShturmRow#0;class#Shturm#0" expanded="false" />
-            <element signature="method#rootsCount#0;class#Shturm#0" expanded="false" />
-            <element signature="method#rootsCount#1;class#Shturm#0" expanded="false" />
-            <element signature="method#findInterval#0;class#Shturm#0" expanded="false" />
-            <element signature="method#localizeRoots#0;class#Shturm#0" expanded="false" />
-            <element signature="method#bisection#0;class#Shturm#0" expanded="false" />
-            <element signature="method#solve#0;class#Shturm#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/polynom/polynom/Polynom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="494" column="0" lean-forward="true" selection-start-line="494" selection-start-column="0" selection-end-line="494" selection-end-column="0" />
+        <state relative-caret-position="1224">
+          <caret line="495" column="5" lean-forward="false" selection-start-line="495" selection-start-column="5" selection-end-line="495" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#0;class#Polynom#0" expanded="false" />
@@ -1238,7 +1233,6 @@
             <element signature="method#Polynom#2;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#3;class#Polynom#0" expanded="false" />
             <element signature="method#Polynom#5;class#Polynom#0" expanded="false" />
-            <element signature="e#3017#3025#0" expanded="true" />
             <element signature="method#recheck#0;class#Polynom#0" expanded="false" />
             <element signature="method#equals#0;class#Polynom#0" expanded="false" />
             <element signature="method#isConst#0;class#Polynom#0" expanded="false" />
@@ -1254,9 +1248,45 @@
             <element signature="method#sign#0;class#Polynom#0" expanded="false" />
             <element signature="method#sign#1;class#Polynom#0" expanded="false" />
             <element signature="method#mod#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#0;class#Polynom#0" expanded="false" />
+            <element signature="method#solve#1;class#Polynom#0" expanded="false" />
             <element signature="method#gcd#0;class#Polynom#0" expanded="false" />
-            <element signature="e#13314#13323#0" expanded="true" />
             <element signature="method#toString#0;class#Polynom#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/polynom/solver/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <folding>
+            <element signature="method#solve#0;class#Solver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/polynom/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/polynom/shturm/Shturm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="101" column="45" lean-forward="false" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
+          <folding>
+            <element signature="method#Shturm#0;class#Shturm#0" expanded="false" />
+            <element signature="e#1604#1613#0" expanded="true" />
+            <element signature="method#findInterval#0;class#Shturm#0" expanded="false" />
+            <element signature="method#localizeRoots#0;class#Shturm#0" expanded="false" />
+            <element signature="e#4309#4317#0" expanded="true" />
+            <element signature="e#5164#5172#0" expanded="true" />
           </folding>
         </state>
       </provider>

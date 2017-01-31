@@ -100,19 +100,18 @@ public class Shturm {
         for (int i = 0; i < shturmRow.length; i++) {
             aSigns[i] = shturmRow[i].sign(a);
             bSigns[i] = shturmRow[i].sign(b);
-
-            if (aSigns[i] == 0 || bSigns[i] == 0) {
-                String error = "Something went wrong with roots finding. Please, write to prohormitrich53@gmail.com";
-                throw new ArithmeticException(error);
-            }
         }
 
         for (int i = 1; i < shturmRow.length; i++) {
             if (aSigns[i-1] != aSigns[i]) {
-                c1++;
+                if (aSigns[i] != 0) {
+                    c1++;
+                }
             }
             if (bSigns[i-1] != bSigns[i]) {
-                c2++;
+                if (bSigns[i] != 0) {
+                    c2++;
+                }
             }
         }
 

@@ -152,7 +152,7 @@ public class Main {
          * You can easily find all real roots of polynomial of any degree, including multiple roots with method solve()
          *
          */
-
+/** Uncomment later
         Polynom p15 = new Polynom("x^6 - 21x^5 + 175x^4 - 735x^3 + 1624x^2 - 1764x + 720");
         double[] roots = p15.solve(); // Will solve p15 = 0 equation
         System.out.println(Arrays.toString(roots));
@@ -162,6 +162,10 @@ public class Main {
 
         Polynom p16 = p15.gcd(p13); // Will return the greatest common divisor of p15 and p 13
         System.out.println(p16);
-
+*/
+        System.out.println("********************");
+        Polynom pr = new Polynom("x^5+x^4+x^2-1");
+        double[] rs = pr.solve();
+        System.out.println(Arrays.toString(rs));
     }
 }
