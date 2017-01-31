@@ -121,17 +121,17 @@ public class Shturm {
     private double findInterval(Polynom polynom) {
         int n = polynom.degree();
         double[] c = polynom.getCoeffs();
-        double[] canditates = new double[n];
+        double[] candidates = new double[n];
 
         for (int i = 0; i < n; i++) {
             double t = Math.abs(c[n - i - 1] * n / c[n]);
-            t = Math.pow(t, 1 / (i + 1));
-            canditates[i] = t;
+            t = Math.pow(t, 1.0 / (i + 1));
+            candidates[i] = t;
         }
 
-        Arrays.sort(canditates);
+        Arrays.sort(candidates);
 
-        return canditates[n-1];
+        return candidates[n-1];
     }
 
     private double[] localizeRoots(Polynom polynom) {
