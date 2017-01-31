@@ -155,8 +155,7 @@ public class Shturm {
 
             if (rootsCount(polynom, a, b) > 1) {
                 if (polynom.valueOf((a + b) / 2) == 0) {
-                    String error = "Something went wrong with roots finding. Please, write to prohormitrich53@gmail.com";
-                    throw new ArithmeticException(error);
+                    dots.add(i, (a + b) / 2 - eps);
                 } else {
                     dots.add(i, (a + b) / 2);
                 }

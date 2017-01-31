@@ -164,7 +164,7 @@ public class Main {
         System.out.println(p16);
 */
         System.out.println("********************");
-        Polynom pr = new Polynom("x^4+x^3-99x^2-x-1");
+        Polynom pr = new Polynom("x^4+x^3-99x^2-10x");
         double[] rs = pr.solve();
         System.out.println(Arrays.toString(rs));
     }
