@@ -39,6 +39,7 @@ import java.util.regex.Pattern;
 public class Polynom {
     private double[] coeffs;
     private String sPolynom;
+    private final String NEG = null;
 
     public Polynom() {
         setCoeffs(new double[]{1.0});
@@ -412,27 +413,18 @@ public class Polynom {
 
     public int sign(double x) {
         int sign;
-
-        sign = (int) Math.round(this.valueOf(x) / Math.abs(this.valueOf(x)));
-
-        return sign;
-    }
-
-    public int sign(String s) {
-        int sign;
         int m = this.degree();
         double a = this.getCoeffs()[m];
 
-        switch (s) {
-            case "-Inf":
-                sign = (int) Math.round(Math.pow(-1, m) * a / Math.abs(a));
-                break;
-            case "Inf":
-                sign = (int) Math.round(a / Math.abs(a));
-                break;
-            default:
-                sign = 0;
-                break;
+        if (x == Double.NEGATIVE_INFINITY) {
+            sign = (int) Math.round(Math.pow(-1, m) * a / Math.abs(a));
+
+        } else if (x == Double.POSITIVE_INFINITY) {
+            sign = (int) Math.round(a / Math.abs(a));
+
+        } else {
+            sign = (int) Math.round(this.valueOf(x) / Math.abs(this.valueOf(x)));
+
         }
 
         return sign;

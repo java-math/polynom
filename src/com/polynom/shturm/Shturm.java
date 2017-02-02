@@ -73,8 +73,8 @@ public class Shturm {
         int c2 = 0;
 
         for (int i = 0; i < shturmRow.length; i++) {
-            mIsigns[i] = shturmRow[i].sign("-Inf");
-            pIsigns[i] = shturmRow[i].sign("Inf");
+            mIsigns[i] = shturmRow[i].sign(Double.NEGATIVE_INFINITY);
+            pIsigns[i] = shturmRow[i].sign(Double.POSITIVE_INFINITY);
         }
 
         for (int i = 1; i < shturmRow.length; i++) {

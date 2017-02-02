@@ -137,7 +137,7 @@ public class Main {
         int s3 = p3.sign(15); // Will return the signum of p3 at x = 15;
         System.out.println(s3); // 1
 
-        int s4 = p3.sign("-Inf"); // Sign on -Infinity
+        int s4 = p3.sign(Double.NEGATIVE_INFINITY); // Sign on -Infinity
         System.out.println(s4);
 
         double y = p3.valueOf(99); // Will calculate the valuse of p3 at x = 99
@@ -162,5 +162,6 @@ public class Main {
 
         Polynom p16 = p15.gcd(p13); // Will return the greatest common divisor of p15 and p13
         System.out.println(p16);
+
     }
 }
