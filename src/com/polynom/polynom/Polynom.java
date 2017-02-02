@@ -38,8 +38,6 @@ import java.util.regex.Pattern;
 
 public class Polynom {
     private double[] coeffs;
-    private String sPolynom;
-    private final String NEG = null;
 
     public Polynom() {
         setCoeffs(new double[]{1.0});
@@ -506,7 +504,7 @@ public class Polynom {
     }
 
     public String toString(){
-        sPolynom = "";
+        String sPolynom = "";
 
         for (int i = 0; i < coeffs.length; i++ ){
 
