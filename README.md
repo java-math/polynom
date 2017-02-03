@@ -8,13 +8,13 @@ For detailed description and examples see Main.java
 
 ####Constructors:
 
-1) Polynom() - Creates "x^0" polynomial, which is exactly "1.0".
+1) `Polynom()` - Creates "x^0" polynomial, which is exactly "1.0".
 
-2) Polynom(int[] coefficients), Polynom(double[] coefficients) - You can send an array of coefficients to constructor.
+2) `Polynom(int[] coefficients)`, Polynom(double[] coefficients) - You can send an array of coefficients to constructor.
 
-3) Polynom(a, deg) - Creates a*x^deg polynomial.
+3) `Polynom(a, deg)` - Creates a*x^deg polynomial.
 
-4) Polynom(String s) - Creates polynomial from String. F.e. s = "x^2+2x+3"
+4) `Polynom(String s)` - Creates polynomial from String. F.e. s = "x^2+2x+3"
 
 ####Methods:
 
