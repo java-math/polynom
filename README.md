@@ -1,5 +1,6 @@
 # polynom
-Vety simple Java library working with polynomial
+Very simple Java library working with polynomial.
+Thank effusively to @phillveber for help with testing
 
 Usage
 
