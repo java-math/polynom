@@ -1,12 +1,12 @@
 # polynom
-##Very simple Java library working with polynomial.
+## Very simple Java library working with polynomial.
 Thank effusively to [@phillveber](https://github.com/phillveber) for help with testing.
 
-###Usage
+### Usage
 
 For detailed description and examples see Main.java
 
-####Constructors:
+#### Constructors:
 
 1) `Polynom()` - Creates "x^0" polynomial, which is exactly "1.0".
 
@@ -16,7 +16,7 @@ For detailed description and examples see Main.java
 
 4) `Polynom(String s)` - Creates polynomial from String. F.e. s = "x^2+2x+3"
 
-####Methods:
+#### Methods:
 
 1) `double[] getCoeffs()` - Will return array of double[] with coefficients of polynomial.
 
